@@ -122,7 +122,7 @@ int main(void) {
 			".----------------------------." \
 			"| GBA Donut v2.0.1           |" \
 			"| Ported by korbosoft        |" \
-			"|                            |" \
+			"| Modded by Rodrigo          |" \
 			"|    (Turn off GBA to exit.) |" \
 			"'----------------------------'");
 	do {
