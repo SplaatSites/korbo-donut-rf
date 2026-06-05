@@ -34,12 +34,13 @@ static u8 frostingFlavor = 0;
 
 static const char *splashMessages[SPLASH_COUNT] = {
 	[0] = "Also try DS Donut!",
-	[1] = "Also try Lily Skate!",
+	[1] = "Also try Scratch Everywhere!",
 	[2] = "Better than Wii Donut!",
 	[3] = "oh man please to help i am not good with c",
 	[4] = "(\"Doughnut\" if you're british)",
 	[5] = "Korbo loves you <3",
 	[6] = "Did you know you can change the music?",
+    [7] = "Sonic and Sega All-Stars Racing on Xbox 360 is better than on the Wii.",
 };
 
 static void send_donut(void) {
@@ -167,7 +168,7 @@ int main(int argc,char **argv) {
 		} else {
 			printf("\x1b[23H" "\x1b[104;37m"
 			"╔═══════════════════════════════════════════════════════════════════════════╗"
-			"║ \x1b[4mKorbo's Donut Shop :3 %s   %s\x1b[0m\x1b[104;37m "                "║"
+			"║ \x1b[4mKRodrigo's Wii Donut  %s   %s\x1b[0m\x1b[104;37m "                "║"
 			"║ Inspired by \"Wii Donut\" by emilydaemon <emilydaemon@donut.eu.org>         ║"
 			"║ Written, and otherwise created by Korbo Q. Lamp                           ║"
 			"║ Default Music is \"Addiction\" by Jogeir Liljedahl  " STRING_CONTROLS   " ║"
